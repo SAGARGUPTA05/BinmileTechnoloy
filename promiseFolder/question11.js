@@ -1,3 +1,5 @@
+//this function tries to fetch the urls in batch manner and then resolve the entire batch
+
 function batchFetch(urls, batchSize) {
   return new Promise((resolve, reject) => {
     let results = [];
@@ -41,8 +43,9 @@ batchFetch(
   2
 )
   .then((data) => {
-    console.log("All results:", data);
+    console.log(data);
   })
   .catch((err) => {
-    console.log("Error:", err);
+    console.log(err);
   });
+
