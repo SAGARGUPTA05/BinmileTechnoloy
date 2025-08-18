@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Make toast progress bar white */
+.Toastify__progress-bar {
+  background: #fff !important;
+}
+
+/* Make success icon white */
+.Toastify__toast-icon svg {
+  fill: #fff !important;
+}
+
+
+
